@@ -7,15 +7,18 @@ Bem-vindo(a) ao repositório! Aqui você encontrará materiais de estudo, inclui
 ```
 /
 |-- 📄 Aulas/
-|   |-- Aula_01.pdf
-|   |-- Aula_02.pdf
-|
-|-- 📂 Notebooks/
-|   |-- notebook_01.ipynb
-|   |-- notebook_02.ipynb
-|
+|   |-- README.md
+|   |-- Aula 01.1
+|   |   |-- Aula_01.pdf
+|   |   |-- notebook_01.ipynb
+|   |   |-- README.md
+|   |-- Aula 02.1
+|   |   |-- Aula_02.pdf
+|   |   |-- notebook_02.ipynb
+|   |   |-- README.md
 |-- README.md
 ```
+
 
 ## 📘 Aulas
 Os arquivos de aula estão disponíveis na pasta [`Aulas`](Aulas/). Cada PDF contém materiais teóricos e explicações detalhadas sobre os tópicos abordados.
