@@ -87,4 +87,19 @@ plt.ylabel('Fração da População')
 plt.legend()
 plt.title('Modelo SIR de Propagação de Doenças')
 plt.show()
+```
+---
+### 🎯 Reflexão Final
+Como podemos modificar esse modelo para incluir vacinação?
+Como diferentes valores de β (taxa de transmissão) e γ (taxa de recuperação) afetam a propagação da doença?
+Como a modelagem matemática pode ser aplicada em outros problemas computacionais, como previsão do clima ou inteligência artificial?
+🚀 Próximos Passos
+Na próxima aula, vamos aprender como usar MATLAB e R para resolver modelos matemáticos e aplicar esses conceitos de forma prática.
 
+---
+### 📌 Tarefa: Deixe o ambiente do Python no VSCode ou utilize o [Google Colab](https://colab.research.google.com/) em seu computador para a próxima aula!
+
+---
+📝 Autor: **Erick Toshio**
+📅 Data: 06/03/2025
+📌 Disciplina: Modelagem Matemática e Computacional
