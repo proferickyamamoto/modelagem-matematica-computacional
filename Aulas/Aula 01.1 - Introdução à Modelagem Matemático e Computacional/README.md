@@ -100,6 +100,6 @@ Na próxima aula, vamos aprender como usar MATLAB e R para resolver modelos mate
 ### 📌 Tarefa: Deixe o ambiente do Python no VSCode ou utilize o [Google Colab](https://colab.research.google.com/) em seu computador para a próxima aula!
 
 ---
-📝 Autor: **Erick Toshio**
+📝 Autor: **Prof. Erick Toshio Yamamoto**
 📅 Data: 06/03/2025
 📌 Disciplina: Modelagem Matemática e Computacional
