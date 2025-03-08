@@ -7,15 +7,23 @@ Nesta aula, vamos explorar as ferramentas Octave/Scilab e R, duas linguagens uti
 📌 R é uma linguagem focada em estatística e ciência de dados.
 
 ✅ Objetivo: Aprender os conceitos básicos e realizar operações matemáticas essenciais.
+
 🔹 O que são Octave/Scilab e R?
+
 🔹 Octave/Scilab (Alternativas ao MATLAB)
+
 ✅ Ferramentas gratuitas para cálculos matemáticos, simulações e engenharia.
+
 ✅ Utilizadas em ciência de dados, modelagem estatística e aprendizado de máquina.
+
 ✅ Forte em: Álgebra linear, processamento de sinais, gráficos 2D/3D.
 
 🔹 R (Statistical Computing)
+
 ✅ Criado para análise estatística e ciência de dados.
+
 ✅ Utilizado em modelagem estatística, aprendizado de máquina e manipulação de grandes volumes de dados.
+
 ✅ Forte em: Estatística, visualização de dados, aprendizado de máquina.
 
 ---
