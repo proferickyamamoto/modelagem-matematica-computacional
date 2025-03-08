@@ -29,16 +29,26 @@ Nesta aula, vamos explorar as ferramentas Octave/Scilab e R, duas linguagens uti
 ---
 ## 📢 Ambas as ferramentas são usadas para modelagem matemática!
 
-📌 Instalando Octave/Scilab e R
+### 📌 Instalando Octave/Scilab e R
+
 🔹 Como instalar Octave?
+
 Baixe o Octave no site oficial:
+
 📎 https://www.gnu.org/software/octave/
+
 Alternativamente, você pode usar Scilab, que tem interface gráfica e é mais próximo do MATLAB:
+
 📎 https://www.scilab.org/download
+
 🔹 Como instalar R?
+
 Baixe o R no site oficial do CRAN:
+
 📎 https://cran.r-project.org/
+
 Para uma interface mais amigável, instale o RStudio:
+
 📎 https://posit.co/download/rstudio-desktop/
 
 ---
