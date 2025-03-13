@@ -152,7 +152,9 @@ plot(x, y) funciona em ambas as linguagens, mas no R precisamos definir type="l"
 Agora que aprendemos os conceitos básicos de Octave/Scilab ou R, tente resolver os seguintes desafios:
 
 1️⃣ Criar uma matriz 3x3 e calcular sua inversa em Octave/Scilab ou R.
+
 2️⃣ Gerar um gráfico de uma função quadrática $$/ 𝑦 = 𝑥^2 − 4𝑥 + 2 /$$
+
 3️⃣ Criar um vetor de 100 números aleatórios e calcular sua média.
 
 📌 Dica: Utilize as funções rand() no Octave/Scilab e runif() no R para gerar números aleatórios.
@@ -160,7 +162,9 @@ Agora que aprendemos os conceitos básicos de Octave/Scilab ou R, tente resolver
 ---
 ## 📢 Reflexão Final
 🔹 Octave/Scilab e R são essenciais para modelagem matemática e computacional.
+
 🔹 Octave/Scilab são poderosos para simulações e engenharia, enquanto R é excelente para estatística e análise de dados.
+
 🔹 A matemática computacional nos permite visualizar e resolver problemas complexos de forma eficiente.
 
 ---
