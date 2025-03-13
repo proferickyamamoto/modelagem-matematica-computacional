@@ -130,3 +130,7 @@ grid()
 
 🔥 **Vamos continuar explorando a matemática aplicada à computação!** 🚀
 
+---
+
+📅 Autor: **Prof Erick Yamamoto**
+📚 Disciplina: Modelagem Matemática e Computacional
