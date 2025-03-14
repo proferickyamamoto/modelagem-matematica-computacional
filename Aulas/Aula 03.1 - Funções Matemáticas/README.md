@@ -1,4 +1,4 @@
-# Semana 3: Álgebra Linear e Funções de Diferentes Graus
+# Aula 03.1: Funções de Diferentes Graus
 
 ## 🎯 Objetivos da Aula
 - 📌 Introduzir as Funções do 1º, 2º Grau e de múltiplos graus e sua importância na modelagem matemática.
