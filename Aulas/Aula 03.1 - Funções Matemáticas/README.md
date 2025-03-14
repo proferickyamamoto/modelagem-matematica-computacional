@@ -2,9 +2,13 @@
 
 ## 🎯 Objetivos da Aula
 📌 Introduzir as Funções do 1º, 2º Grau e de múltiplos graus e sua importância na modelagem matemática.
+
 📌 Explorar **aplicações reais** dessas funções em diferentes cenários.
+
 📌 Resolver problemas computacionais usando **Octave/Scilab e R**.
+
 📌 Interpretar **gráficos de funções** e suas propriedades.
+
 📌 Implementar modelos matemáticos aplicados à economia, engenharia e ciências de dados.
 
 ---
@@ -122,9 +126,7 @@ grid()
 ---
 
 ## 🎯 Próxima Aula
-- 📌 **Introdução a Sistemas de Equações Lineares**.
-- 📌 Resolvendo problemas com múltiplas variáveis.
-- 📌 Aplicação em otimização e redes neurais.
+📌 **Cálculo Diferencial - Limites de uma Função**
 
 ---
 
