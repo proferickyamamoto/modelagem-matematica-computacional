@@ -14,16 +14,40 @@
 O limite de uma função descreve **o comportamento da função à medida que a variável independente se aproxima de um determinado valor**.
 
 - **Notação matemática:**
-  \[
+  $$
   \lim_{{x \to a}} f(x) = L
-  \]
+  $$
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
   - Se temos \( f(x) = x^2 \), então:
-    \[
+    $$
     \lim_{{x \to 2}} x^2 = 4
-    \]
+    $$
+    Pois, conforme **x se aproxima de 2**, os valores de \( x^2 \) se aproximam de **4**.
+
+### 📈 Representação Gráfica do Conceito de Limite
+Abaixo, um gráfico que representa como o limite se comporta:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.li
+
+O limite de uma função descreve **o comportamento da função à medida que a variável independente se aproxima de um determinado valor**.
+
+- **Notação matemática:**
+  $$
+  \lim_{{x \to a}} f(x) = L
+  $$
+  Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
+
+- **Exemplo intuitivo:**
+  - Se temos \( f(x) = x^2 \), então:
+    $$
+    \lim_{{x \to 2}} x^2 = 4
+    $$
     Pois, conforme **x se aproxima de 2**, os valores de \( x^2 \) se aproximam de **4**.
 
 ---
@@ -32,15 +56,15 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto \( a \).
 
 - **Limite pela esquerda:**
-  \[
+  $$
   \lim_{{x \to a^-}} f(x)
-  \]
+  $$
   (Quando x se aproxima de a por valores menores que a).
 
 - **Limite pela direita:**
-  \[
+  $$
   \lim_{{x \to a^+}} f(x)
-  \]
+  $$
   (Quando x se aproxima de a por valores maiores que a).
 
 - **Se os limites laterais forem diferentes, o limite não existe!**
@@ -53,9 +77,9 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
   \end{cases}
   \)
 
-  \[
+  $$
   \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6
-  \]
+  $$
   **Conclusão:** O limite de \( f(x) \) em \( x = 3 \) **não existe**.
 
 ---
@@ -63,19 +87,19 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 ## 🔄 Limites Infinitos e no Infinito
 
 - **Limites infinitos:** Ocorrem quando \( f(x) \) cresce ou decresce indefinidamente à medida que \( x \) se aproxima de um ponto.
-  \[
+  $$
   \lim_{{x \to a}} f(x) = \infty \quad \text{ou} \quad \lim_{{x \to a}} f(x) = -\infty
-  \]
+  $$
 
 - **Limites no infinito:** Ocorrem quando \( x \) cresce indefinidamente.
-  \[
+  $$
   \lim_{{x \to \infty}} f(x) = L
-  \]
+  $$
 
 - **Exemplo:**
-  \[
+  $$
   \lim_{{x \to \infty}} \frac{1}{x} = 0
-  \]
+  $$
   Conforme \( x \) aumenta, \( 1/x \) se aproxima de **0**.
 
 ---
@@ -85,24 +109,24 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 Sejam \( \lim_{{x \to a}} f(x) = L \) e \( \lim_{{x \to a}} g(x) = M \), então:
 
 1️⃣ **Soma/Diferença:**
-   \[
+   $$
    \lim_{{x \to a}} [f(x) \pm g(x)] = L \pm M
-   \]
+   $$
 
 2️⃣ **Produto:**
-   \[
+   $$
    \lim_{{x \to a}} [f(x) \cdot g(x)] = L \cdot M
-   \]
+   $$
 
 3️⃣ **Quociente:**
-   \[
+   $$
    \lim_{{x \to a}} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad \text{se } M \neq 0
-   \]
+   $$
 
 4️⃣ **Constante multiplicada:**
-   \[
+   $$
    \lim_{{x \to a}} [c \cdot f(x)] = c \cdot L
-   \]
+   $$
 
 ---
 
@@ -130,21 +154,21 @@ Simplify(Limit(f, x, 2))
 
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
-   \[
+   $$
    f(x) = \begin{cases}
    x^2 - 1, & x < 2 \\
    3x - 4, & x > 2
    \end{cases}
-   \]
+   $$
 
 ### 🔴 Difícil
 3️⃣ Encontre os valores de \( a \) e \( b \) para que a função seja contínua em \( x = 1 \):
-   \[
+   $$
    f(x) = \begin{cases}
    ax + b, & x < 1 \\
    x^2 + 2, & x > 1
    \end{cases}
-   \]
+   $$
 
 ---
 
