@@ -172,4 +172,9 @@ Simplify(Limit(f, x, 2))
 
 🔥 **Vamos explorar o cálculo diferencial com mais profundidade!** 🚀
 
+---
+
+📅 Autor: **Prof Erick Yamamoto**
+📚 Disciplina: Modelagem Matemática e Computacional
+
 
