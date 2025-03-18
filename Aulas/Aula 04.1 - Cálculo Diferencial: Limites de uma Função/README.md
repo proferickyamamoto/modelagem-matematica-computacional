@@ -39,19 +39,19 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 
 - **Limite pela direita:**
  
-  $$\  \lim_{{x \to a^+}} f(x) $$\ 
+  $$\  \lim_{{x \to a^+}} f(x) \$$ 
   
   (Quando x se aproxima de a por valores maiores que a).
 
 - **Se os limites laterais forem diferentes, o limite não existe!**
 
 - **Exemplo:**
-  ```math
+  $$\
   f(x) = \begin{cases}
   x + 1, & x < 3 \\
   2x, & x > 3
   \end{cases}
-  ```
+  \$$
 
   
   $$\  \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6 \$$
@@ -63,19 +63,19 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 ## 🔄 Limites Infinitos e no Infinito
 
 - **Limites infinitos:** Ocorrem quando $$\ \( f(x) \) \$$ cresce ou decresce indefinidamente à medida que \( x \) se aproxima de um ponto.
-  ```math
+  $$\
   \lim_{{x \to a}} f(x) = \infty \quad \text{ou} \quad \lim_{{x \to a}} f(x) = -\infty
-  ```
+  \$$
 
 - **Limites no infinito:** Ocorrem quando $$\ \( x \) \$$ cresce indefinidamente.
-  ```math
+  $$\
   \lim_{{x \to \infty}} f(x) = L
-  ```
+  \$$
 
 - **Exemplo:**
-  ```math
+  $$\
   \lim_{{x \to \infty}} \frac{1}{x} = 0
-  ```
+  \$$
   Conforme $$\ \( x \)\$$ aumenta, $$\ \( 1/x \) \$$ se aproxima de **0**.
 
 ---
@@ -85,24 +85,24 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 Sejam $$\ \( \lim_{{x \to a}} f(x) = L \) \$$ e $$\ \( \lim_{{x \to a}} g(x) = M \)\$$, então:
 
 1️⃣ **Soma/Diferença:**
-   ```math
+   $$\
    \lim_{{x \to a}} [f(x) \pm g(x)] = L \pm M
-   ```
+   \$$
 
 2️⃣ **Produto:**
-   ```math
+   $$\
    \lim_{{x \to a}} [f(x) \cdot g(x)] = L \cdot M
-   ```
+   \$$
 
 3️⃣ **Quociente:**
-   ```math
+   $$\
    \lim_{{x \to a}} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad \text{se } M \neq 0
-   ```
+   \$$
 
 4️⃣ **Constante multiplicada:**
-   ```math
+   $$\
    \lim_{{x \to a}} [c \cdot f(x)] = c \cdot L
-   ```
+   \$$
 
 ---
 
@@ -130,21 +130,21 @@ Simplify(Limit(f, x, 2))
 
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
-   ```math
+   $$\
    f(x) = \begin{cases}
    x^2 - 1, & x < 2 \\
    3x - 4, & x > 2
    \end{cases}
-   ```
+   \$$
 
 ### 🔴 Difícil
 3️⃣ Encontre os valores de $$\ \( a \)\$$ e $$\\( b \) para que a função seja contínua em $$\ \( x = 1 \)\$$:
-   ```math
+   $$\
    f(x) = \begin{cases}
    ax + b, & x < 1 \\
    x^2 + 2, & x > 1
    \end{cases}
-   ```
+   \$$
 
 ---
 
