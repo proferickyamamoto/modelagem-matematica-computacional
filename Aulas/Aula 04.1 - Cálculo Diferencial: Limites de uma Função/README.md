@@ -14,9 +14,9 @@
 O limite de uma função descreve **o comportamento da função à medida que a variável independente se aproxima de um determinado valor**.
 
 - **Notação matemática:**
-  \[
-  \lim_{{x \to a}} f(x) = L
-  \]
+  
+  $$/\lim_{{x \to a}} f(x) = L/$$
+  
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
