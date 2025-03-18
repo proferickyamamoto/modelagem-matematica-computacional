@@ -24,7 +24,7 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 
     $$\ \lim_{{x \to 2}} x^2 = 4 \$$
 
-    Pois, conforme **x se aproxima de 2**, os valores de $$\\( x^2 \)\$$ se aproximam de **4**.
+    Pois, conforme **x se aproxima de 2**, os valores de $$\ \( x^2 \)\$$ se aproximam de **4**.
 
 ---
 
@@ -32,15 +32,15 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto $$\ \( a \) \$$.
 
 - **Limite pela esquerda:**
-  ```math
-  \lim_{{x \to a^-}} f(x)
-  ```
+  
+  $$\ \lim_{{x \to a^-}} f(x) \$$
+  
   (Quando x se aproxima de a por valores menores que a).
 
 - **Limite pela direita:**
-  ```math
-  \lim_{{x \to a^+}} f(x)
-  ```
+ 
+  $$\  \lim_{{x \to a^+}} f(x) $$\ 
+  
   (Quando x se aproxima de a por valores maiores que a).
 
 - **Se os limites laterais forem diferentes, o limite não existe!**
@@ -53,9 +53,9 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
   \end{cases}
   ```
 
-  ```math
-  \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6
-  ```
+  
+  $$\  \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6 \$$
+  
   **Conclusão:** O limite de $$\ \( f(x) \) \$$ em $$\ \( x = 3 \) \$$ **não existe**.
 
 ---
