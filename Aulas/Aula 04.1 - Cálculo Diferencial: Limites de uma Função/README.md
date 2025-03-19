@@ -64,7 +64,7 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 
 - **Exemplo:**
   ```math
-  $$\ f(x) = \begin{cases} x + 1, & x < 3 \\ 2x, & x > 3 \end{cases}\$$
+  f(x) = \begin{cases} x + 1, & x < 3 \\ 2x, & x > 3 \end{cases}
   ```
 
   $$\ \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6 \$$
