@@ -37,7 +37,7 @@ O limite de uma função descreve **o comportamento da função à medida que a 
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
-  - Se temos $$\ \( f(x) = x^2 \) \$$, então:
+  - Se temos $$\ f(x) = x^2 \$$, então:
 
     $$\ \lim_{{x \to 2}} x^2 = 4 \$$
 
@@ -74,6 +74,7 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
   $$\
   \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6
   $$\
+  
   **Conclusão:** O limite de $$\ f(x) \$$ em $$\ x = 3 \$$ **não existe**.
 
 ---
@@ -81,19 +82,17 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 ## 🔄 Limites Infinitos e no Infinito
 
 - **Limites infinitos:** Ocorrem quando $$\ f(x) \$$ cresce ou decresce indefinidamente à medida que $$\ x \$$ se aproxima de um ponto.
-  $$\
-  \lim_{{x \to a}} f(x) = \infty \quad \text{ou} \quad \lim_{{x \to a}} f(x) = -\infty
-  \$$
+
+  $$\ \lim_{{x \to a}} f(x) = \infty \quad \text{ou} \quad \lim_{{x \to a}} f(x) = -\infty\$$
 
 - **Limites no infinito:** Ocorrem quando $$\ x \$$ cresce indefinidamente.
-  $$\
-  \lim_{{x \to \infty}} f(x) = L
-  \$$
+
+  $$\ \lim_{{x \to \infty}} f(x) = L \$$
 
 - **Exemplo:**
-  $$\
-  \lim_{{x \to \infty}} \frac{1}{x} = 0
-  \$$
+
+  $$\ \lim_{{x \to \infty}} \frac{1}{x} = 0 \$$
+  
   Conforme $$\ x \$$ aumenta, $$\ 1/x \$$ se aproxima de **0**.
 
 ---
