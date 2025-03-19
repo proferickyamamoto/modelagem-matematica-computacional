@@ -64,16 +64,9 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 
 - **Exemplo:**
 - 
-  $$\
-  f(x) = \begin{cases}
-  x + 1, & x < 3 \\
-  2x, & x > 3
-  \end{cases}
-  \$$
+  $$\ f(x) = \begin{cases} x + 1, & x < 3 \\ 2x, & x > 3 \end{cases}\$$
 
-  $$\
-  \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6
-  $$\
+  $$\ \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6 \$$
   
   **Conclusão:** O limite de $$\ f(x) \$$ em $$\ x = 3 \$$ **não existe**.
 
@@ -102,24 +95,16 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 Sejam $$\  \lim_{{x \to a}} f(x) = L \$$ e $$\ \lim_{{x \to a}} g(x) = M \$$, então:
 
 1️⃣ **Soma/Diferença:**
-   $$\
-   \lim_{{x \to a}} [f(x) \pm g(x)] = L \pm M
-   \$$
+   $$\ \lim_{{x \to a}} [f(x) \pm g(x)] = L \pm M \$$
 
 2️⃣ **Produto:**
-   $$\
-   \lim_{{x \to a}} [f(x) \cdot g(x)] = L \cdot M
-   \$$
+   $$\ \lim_{{x \to a}} [f(x) \cdot g(x)] = L \cdot M \$$
 
 3️⃣ **Quociente:**
-   $$\
-   \lim_{{x \to a}} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad \text{se } M \neq 0
-   \$$
+   $$\ \lim_{{x \to a}} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad \text{se } M \neq 0 \$$
 
 4️⃣ **Constante multiplicada:**
-   $$\
-   \lim_{{x \to a}} [c \cdot f(x)] = c \cdot L
-   \$$
+   $$\ \lim_{{x \to a}} [c \cdot f(x)] = c \cdot L \$$
 
 ---
 
@@ -147,21 +132,11 @@ Simplify(Limit(f, x, 2))
 
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
-   $$\
-   f(x) = \begin{cases}
-   x^2 - 1, & x < 2 \\
-   3x - 4, & x > 2
-   \end{cases}
-   \$$
+   $$\ f(x) = \begin{cases} x^2 - 1, & x < 2 \\ 3x - 4, & x > 2 \end{cases} \$$
 
 ### 🔴 Difícil
 3️⃣ Encontre os valores de $$\ a \$$ e $$\ b \$$ para que a função seja contínua em $$\ x = 1 \$$:
-   $$\
-   f(x) = \begin{cases}
-   ax + b, & x < 1 \\
-   x^2 + 2, & x > 1
-   \end{cases}
-   \$$
+   $$\ f(x) = \begin{cases} ax + b, & x < 1 \\ x^2 + 2, & x > 1 \end{cases} \$$
 
 ---
 
