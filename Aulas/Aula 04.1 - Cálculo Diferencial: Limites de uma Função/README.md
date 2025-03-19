@@ -14,40 +14,34 @@
 O limite de uma função descreve **o comportamento da função à medida que a variável independente se aproxima de um determinado valor**.
 
 - **Notação matemática:**
-  $$
+  $$\
   \lim_{{x \to a}} f(x) = L
-  $$
+  \$$
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
   - Se temos \( f(x) = x^2 \), então:
-    $$
+    $$\
     \lim_{{x \to 2}} x^2 = 4
-    $$
+    \$$
     Pois, conforme **x se aproxima de 2**, os valores de \( x^2 \) se aproximam de **4**.
 
 ### 📈 Representação Gráfica do Conceito de Limite
 Abaixo, um gráfico que representa como o limite se comporta:
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-x = np.li
-
 O limite de uma função descreve **o comportamento da função à medida que a variável independente se aproxima de um determinado valor**.
 
 - **Notação matemática:**
-  $$
+  $$\
   \lim_{{x \to a}} f(x) = L
-  $$
+  \$$
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
   - Se temos \( f(x) = x^2 \), então:
-    $$
+    $$\
     \lim_{{x \to 2}} x^2 = 4
-    $$
+    \$$
     Pois, conforme **x se aproxima de 2**, os valores de \( x^2 \) se aproximam de **4**.
 
 ---
@@ -56,15 +50,15 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto \( a \).
 
 - **Limite pela esquerda:**
-  $$
+  $$\
   \lim_{{x \to a^-}} f(x)
-  $$
+  \$$
   (Quando x se aproxima de a por valores menores que a).
 
 - **Limite pela direita:**
-  $$
+  $$\
   \lim_{{x \to a^+}} f(x)
-  $$
+  \$$
   (Quando x se aproxima de a por valores maiores que a).
 
 - **Se os limites laterais forem diferentes, o limite não existe!**
@@ -109,24 +103,24 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 Sejam \( \lim_{{x \to a}} f(x) = L \) e \( \lim_{{x \to a}} g(x) = M \), então:
 
 1️⃣ **Soma/Diferença:**
-   $$
+   $$\
    \lim_{{x \to a}} [f(x) \pm g(x)] = L \pm M
-   $$
+   \$$
 
 2️⃣ **Produto:**
-   $$
+   $$\
    \lim_{{x \to a}} [f(x) \cdot g(x)] = L \cdot M
-   $$
+   \$$
 
 3️⃣ **Quociente:**
-   $$
+   $$\
    \lim_{{x \to a}} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad \text{se } M \neq 0
-   $$
+   \$$
 
 4️⃣ **Constante multiplicada:**
-   $$
+   $$\
    \lim_{{x \to a}} [c \cdot f(x)] = c \cdot L
-   $$
+   \$$
 
 ---
 
