@@ -20,10 +20,10 @@ O limite de uma função descreve **o comportamento da função à medida que a 
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
-  - Se temos $$\ \( f(x) = x^2 \) \$$ , então:
+  - Se temos $$\ f(x) = x^2 \$$ , então:
 
     $$\ \lim_{{x \to 2}} x^2 = 4 \$$
-    Pois, conforme **x se aproxima de 2**, os valores de $$\ \( x^2 \) \$$ se aproximam de **4**.
+    Pois, conforme **x se aproxima de 2**, os valores de $$\ x^2 \$$ se aproximam de **4**.
 
 ### 📈 Representação Gráfica do Conceito de Limite
 Abaixo, um gráfico que representa como o limite se comporta:
@@ -41,12 +41,12 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 
     $$\ \lim_{{x \to 2}} x^2 = 4 \$$
 
-    Pois, conforme **x se aproxima de 2**, os valores de $$\ \( x^2 \) \$$ se aproximam de **4**.
+    Pois, conforme **x se aproxima de 2**, os valores de $$\  x^2 \$$ se aproximam de **4**.
 
 ---
 
 ## 📊 Limites Laterais
-Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto $$\ \( a \) \$$.
+Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto $$\ a \$$.
 
 - **Limite pela esquerda:**
 
@@ -64,43 +64,43 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 
 - **Exemplo:**
 - 
-  $$
+  $$\
   f(x) = \begin{cases}
   x + 1, & x < 3 \\
   2x, & x > 3
   \end{cases}
-  $$
+  \$$
 
-  $$
+  $$\
   \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6
-  $$
-  **Conclusão:** O limite de \( f(x) \) em \( x = 3 \) **não existe**.
+  $$\
+  **Conclusão:** O limite de $$\ f(x) \$$ em $$\ x = 3 \$$ **não existe**.
 
 ---
 
 ## 🔄 Limites Infinitos e no Infinito
 
-- **Limites infinitos:** Ocorrem quando \( f(x) \) cresce ou decresce indefinidamente à medida que \( x \) se aproxima de um ponto.
-  $$
+- **Limites infinitos:** Ocorrem quando $$\ f(x) \$$ cresce ou decresce indefinidamente à medida que $$\ x \$$ se aproxima de um ponto.
+  $$\
   \lim_{{x \to a}} f(x) = \infty \quad \text{ou} \quad \lim_{{x \to a}} f(x) = -\infty
-  $$
+  \$$
 
-- **Limites no infinito:** Ocorrem quando \( x \) cresce indefinidamente.
-  $$
+- **Limites no infinito:** Ocorrem quando $$\ x \$$ cresce indefinidamente.
+  $$\
   \lim_{{x \to \infty}} f(x) = L
-  $$
+  \$$
 
 - **Exemplo:**
-  $$
+  $$\
   \lim_{{x \to \infty}} \frac{1}{x} = 0
-  $$
-  Conforme \( x \) aumenta, \( 1/x \) se aproxima de **0**.
+  \$$
+  Conforme $$\ x \$$ aumenta, $$\ 1/x \$$ se aproxima de **0**.
 
 ---
 
 ## 🏗️ Propriedades dos Limites
 
-Sejam \( \lim_{{x \to a}} f(x) = L \) e \( \lim_{{x \to a}} g(x) = M \), então:
+Sejam $$\  \lim_{{x \to a}} f(x) = L \$$ e $$\ \lim_{{x \to a}} g(x) = M \$$, então:
 
 1️⃣ **Soma/Diferença:**
    $$\
@@ -144,25 +144,25 @@ Simplify(Limit(f, x, 2))
 
 ## 🏆 Atividade Prática
 ### 🟢 Fácil
-1️⃣ Calcule o limite: \( \lim_{{x \to 3}} (x^2 + 2x - 3) \).
+1️⃣ Calcule o limite: $$\ \lim_{{x \to 3}} (x^2 + 2x - 3) \$$.
 
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
-   $$
+   $$\
    f(x) = \begin{cases}
    x^2 - 1, & x < 2 \\
    3x - 4, & x > 2
    \end{cases}
-   $$
+   \$$
 
 ### 🔴 Difícil
-3️⃣ Encontre os valores de \( a \) e \( b \) para que a função seja contínua em \( x = 1 \):
-   $$
+3️⃣ Encontre os valores de $$\ a \$$ e $$\ b \$$ para que a função seja contínua em $$\ x = 1 \$$:
+   $$\
    f(x) = \begin{cases}
    ax + b, & x < 1 \\
    x^2 + 2, & x > 1
    \end{cases}
-   $$
+   \$$
 
 ---
 
@@ -189,4 +189,3 @@ Simplify(Limit(f, x, 2))
 ---
 
 🔥 **Vamos explorar o cálculo diferencial com mais profundidade!** 🚀
-
