@@ -23,7 +23,7 @@ O limite de uma função descreve **o comportamento da função à medida que a 
   - Se temos $$\ \( f(x) = x^2 \) \$$ , então:
 
     $$\ \lim_{{x \to 2}} x^2 = 4 \$$
-    Pois, conforme **x se aproxima de 2**, os valores de \( x^2 \) se aproximam de **4**.
+    Pois, conforme **x se aproxima de 2**, os valores de $$\ \( x^2 \) \$$ se aproximam de **4**.
 
 ### 📈 Representação Gráfica do Conceito de Limite
 Abaixo, um gráfico que representa como o limite se comporta:
@@ -31,44 +31,45 @@ Abaixo, um gráfico que representa como o limite se comporta:
 O limite de uma função descreve **o comportamento da função à medida que a variável independente se aproxima de um determinado valor**.
 
 - **Notação matemática:**
-  $$\
-  \lim_{{x \to a}} f(x) = L
-  \$$
+
+  $$\ \lim_{{x \to a}} f(x) = L \$$
+
   Isso significa que **quando x se aproxima de a, f(x) se aproxima de L**.
 
 - **Exemplo intuitivo:**
-  - Se temos \( f(x) = x^2 \), então:
-    $$\
-    \lim_{{x \to 2}} x^2 = 4
-    \$$
-    Pois, conforme **x se aproxima de 2**, os valores de \( x^2 \) se aproximam de **4**.
+  - Se temos $$\ \( f(x) = x^2 \) \$$, então:
+
+    $$\ \lim_{{x \to 2}} x^2 = 4 \$$
+
+    Pois, conforme **x se aproxima de 2**, os valores de $$\ \( x^2 \) \$$ se aproximam de **4**.
 
 ---
 
 ## 📊 Limites Laterais
-Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto \( a \).
+Os **limites laterais** analisam o comportamento da função à esquerda e à direita de um ponto $$\ \( a \) \$$.
 
 - **Limite pela esquerda:**
-  $$\
-  \lim_{{x \to a^-}} f(x)
-  \$$
+
+  $$\ \lim_{{x \to a^-}} f(x) \$$
+
   (Quando x se aproxima de a por valores menores que a).
 
 - **Limite pela direita:**
-  $$\
-  \lim_{{x \to a^+}} f(x)
-  \$$
+
+  $$\ \lim_{{x \to a^+}} f(x) \$$
+
   (Quando x se aproxima de a por valores maiores que a).
 
 - **Se os limites laterais forem diferentes, o limite não existe!**
 
 - **Exemplo:**
-  \(
+- 
+  $$\(
   f(x) = \begin{cases}
   x + 1, & x < 3 \\
   2x, & x > 3
   \end{cases}
-  \)
+  \)$$
 
   $$
   \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6
