@@ -153,7 +153,9 @@ Simplify(Limit(f, x, 2))
 
 ## 📌 Tarefa para Casa
 1️⃣ Resolva os exercícios propostos.
+
 2️⃣ Use Octave ou R para calcular limites computacionais.
+
 3️⃣ Analise graficamente como a função se comporta perto do ponto avaliado.
 
 ---
