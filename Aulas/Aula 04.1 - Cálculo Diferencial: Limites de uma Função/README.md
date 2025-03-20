@@ -22,8 +22,9 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 - **Exemplo intuitivo:**
   - Se temos $$\ f(x) = x^2 \$$ , então:
 
-    $$\ \lim_{{x \to 2}} x^2 = 4 \$$
-    Pois, conforme **x se aproxima de 2**, os valores de $$\ x^2 \$$ se aproximam de **4**.
+  $$\ \lim_{{x \to 2}} x^2 = 4 \$$
+  
+  Pois, conforme **x se aproxima de 2**, os valores de $$\ x^2 \$$ se aproximam de **4**.
 
 ### 📈 Representação Gráfica do Conceito de Limite
 Abaixo, um gráfico que representa como o limite se comporta:
@@ -39,7 +40,7 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 - **Exemplo intuitivo:**
   - Se temos $$\ f(x) = x^2 \$$, então:
 
-    $$\ \lim_{{x \to 2}} x^2 = 4 \$$
+  $$\ \lim_{{x \to 2}} x^2 = 4 \$$
 
   Pois, conforme **x se aproxima de 2**, os valores de $$\  x^2 \$$ se aproximam de **4**.
 
