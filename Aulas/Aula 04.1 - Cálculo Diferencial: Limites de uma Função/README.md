@@ -41,7 +41,7 @@ O limite de uma função descreve **o comportamento da função à medida que a 
 
     $$\ \lim_{{x \to 2}} x^2 = 4 \$$
 
-    Pois, conforme **x se aproxima de 2**, os valores de $$\  x^2 \$$ se aproximam de **4**.
+  Pois, conforme **x se aproxima de 2**, os valores de $$\  x^2 \$$ se aproximam de **4**.
 
 ---
 
@@ -63,9 +63,7 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 - **Se os limites laterais forem diferentes, o limite não existe!**
 
 - **Exemplo:**
-  ```math
-  f(x) = \begin{cases} x + 1, & x < 3 \\ 2x, & x > 3 \end{cases}
-  ```
+  ![Descrição da imagem](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/eadf7c24ae28107bd6f96872345dbfd7d2e9a24f/Aulas/Aula%2004.1%20-%20) ▋
 
   $$\ \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6 \$$
   
@@ -133,11 +131,13 @@ Simplify(Limit(f, x, 2))
 
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
-   ![intermediario]
+   
+  ![Intermediário](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/eadf7c24ae28107bd6f96872345dbfd7d2e9a24f/Aulas/Aula%2004.1%20-%20C%C3%A1lculo%20Diferencial) ▋
 
 ### 🔴 Difícil
 3️⃣ Encontre os valores de $$\ a \$$ e $$\ b \$$ para que a função seja contínua em $$\ x = 1 \$$:
-   ![dificil]
+   
+  ![Difícil](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/eadf7c24ae28107bd6f96872345dbfd7d2e9a24f/Aulas/Aula%2004.1%20-%20C%C3%A1lculo%20Diferencial%3A%20Limites%20de%20uma%20Fun%C3%A7%C3%A3o/src/dificil.png)
 
 ---
 
