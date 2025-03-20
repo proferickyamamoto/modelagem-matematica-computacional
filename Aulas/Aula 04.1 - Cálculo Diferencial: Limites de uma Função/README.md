@@ -65,8 +65,7 @@ Os **limites laterais** analisam o comportamento da função à esquerda e à di
 
 - **Exemplo:**
 
-  ![formula_1](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/eadf7c24ae28107bd6f96872345dbfd7d2e9a24f/Aulas/Aula%2004.1%20-%20C%C3%A1lculo%20Diferencial%3A%20Limites%20de%20uma%20Fun%C3%A7%C3%A3o/src/formula.png)
-
+  ![Descrição da imagem](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/7d3bae6fe4ed4045b680dc237240fb91d5982da2/Aulas/Aula%2004.1%20-%20C%C3%A1lculo%20Diferencial%3A%20Limites%20de%20uma%20Fun%C3%A7%C3%A3o/src/fomula.png)
 
   $$\ \lim_{{x \to 3^-}} f(x) = 4 \neq \lim_{{x \to 3^+}} f(x) = 6 \$$
   
