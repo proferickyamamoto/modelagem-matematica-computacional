@@ -129,15 +129,15 @@ Simplify(Limit(f, x, 2))
 
 ## 🏆 Atividade Prática
 ### 🟢 Fácil
-1️⃣ Calcule o limite: $$\ \lim_{{x \to 3}} (x^2 + 2x - 3) \$$.
+1️⃣ Calcule o limite: $$\ \lim_{{x \to 3}} (x^2 + 2x - 3)) \$$.
 
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
-   $$\ f(x) = \begin{cases} x^2 - 1, & x < 2 \\ 3x - 4, & x > 2 \end{cases} \$$
+   ![intermediario]
 
 ### 🔴 Difícil
 3️⃣ Encontre os valores de $$\ a \$$ e $$\ b \$$ para que a função seja contínua em $$\ x = 1 \$$:
-   $$\ f(x) = \begin{cases} ax + b, & x < 1 \\ x^2 + 2, & x > 1 \end{cases} \$$
+   ![dificil]
 
 ---
 
