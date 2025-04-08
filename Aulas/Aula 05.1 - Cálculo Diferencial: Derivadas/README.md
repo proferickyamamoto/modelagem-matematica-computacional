@@ -113,13 +113,13 @@ Simplify(derivada)
 ## 🧠 Atividade Prática
 
 ### 1. Calcule a derivada das seguintes funções:
-- a) \$$ f(x) = 5x^3 - x^2 + 2x - 7 \$$
-- b) \$$ f(x) = \frac{x^2 + 1}{x} \$$
-- c) \$$ f(x) = e^{2x} \cdot \sin(x) \$$
+- a) \$$f(x) = 5x^3 - x^2 + 2x - 7 \$$
+- b) \$$f(x) = \frac{x^2 + 1}{x} \$$
+- c) \$$f(x) = e^{2x} \cdot \sin(x) \$$
 
-### 2. Interprete o significado da derivada da função \$$ f(x) = x^2 \$$ em \$$ x = 3 \$$.
+### 2. Interprete o significado da derivada da função \$$f(x) = x^2 \$$ em \$$ x = 3 \$$.
 
-### 3. Escreva um script em Octave ou R que calcule e plote a derivada de \$$ f(x) = x^3 - 6x^2 + 9x \$$.
+### 3. Escreva um script em Octave ou R que calcule e plote a derivada de \$$f(x) = x^3 - 6x^2 + 9x \$$.
 
 ---
 
