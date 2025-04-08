@@ -20,7 +20,7 @@ Imagine que você está subindo uma montanha. A cada passo que você dá, a incl
 
 A **derivada** de uma função em um ponto representa a **taxa de variação instantânea** dessa função. É definida como o limite do quociente incremental:
 
-$$\f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}\$$
+$$\ f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}\$$
 
 Essa expressão representa a **inclinação da reta tangente** ao gráfico da função no ponto \$$( x )\$$.
 
