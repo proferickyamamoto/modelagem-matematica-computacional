@@ -117,7 +117,7 @@ Simplify(derivada)
 - b) \$$f(x) = \frac{x^2 + 1}{x} \$$
 - c) \$$f(x) = e^{2x} \cdot \sin(x) \$$
 
-### 2. Interprete o significado da derivada da função \$$f(x) = x^2 \$$ em \$$ x = 3 \$$.
+### 2. Interprete o significado da derivada da função \$$f(x) = x^2 \$$ em \$$x = 3 \$$.
 
 ### 3. Escreva um script em Octave ou R que calcule e plote a derivada de \$$f(x) = x^3 - 6x^2 + 9x \$$.
 
