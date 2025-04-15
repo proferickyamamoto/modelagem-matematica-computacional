@@ -134,7 +134,7 @@ Simplify(Limit(f, x, 2))
 ### 🟡 Intermediário
 2️⃣ Determine os **limites laterais** da função:
    
-  ![Intermediário](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/eadf7c24ae28107bd6f96872345dbfd7d2e9a24f/Aulas/Aula%2004.1%20-%20C%C3%A1lculo%20Diferencial%3A%20Limites%20de%20uma%20Fun%C3%A7%C3%A3o/src/intermediario.png) ▋
+  ![Intermediário](https://github.com/proferickyamamoto/modelagem-matematica-computacional/blob/eadf7c24ae28107bd6f96872345dbfd7d2e9a24f/Aulas/Aula%2004.1%20-%20C%C3%A1lculo%20Diferencial%3A%20Limites%20de%20uma%20Fun%C3%A7%C3%A3o/src/intermediario.png) 
 
 ### 🔴 Difícil
 3️⃣ Encontre os valores de $$\ a \$$ e $$\ b \$$ para que a função seja contínua em $$\ x = 1 \$$:
