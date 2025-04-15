@@ -1,4 +1,4 @@
-# Aula 06.1: Derivadas e Pontos Críticos
+# Aula 06.1- Cálculo Diferencial: Derivadas e Pontos Críticos
 
 ## 🎯 Objetivos da Aula
 
