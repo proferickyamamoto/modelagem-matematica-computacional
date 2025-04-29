@@ -15,11 +15,11 @@ A **integral indefinida** de uma função é o processo **inverso** da derivaç�
 
 Se:
 
-\$$ f'(x) = g(x) \$$
+\$$f'(x) = g(x) \$$
 
 Então:
 
-\$$ \int g(x) \, dx = f(x) + C \$$
+\$$\int g(x) \, dx = f(x) + C \$$
 
 onde \$$ C \$$ é a **constante de integração** (representa uma família de soluções).
 
@@ -35,7 +35,7 @@ onde \$$ C \$$ é a **constante de integração** (representa uma família de so
 | Soma de Integrais             | \$$\int (f(x) + g(x)) \, dx = \int f(x) \, dx + \int g(x) \, dx \$$ |
 | Integral de função constante  | \$$\int k \, dx = kx + C \$$ |
 | Integral de potência          | \$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1 \$$ |
-| Integral do inverso           | \$$\int \frac{1}{x} \, dx = \ln|x| + C \$$ |
+| Integral do inverso           | \$$\int\frac{1}{x}, dx = \ln|x| + C \$$ |
 
 ---
 
@@ -43,12 +43,12 @@ onde \$$ C \$$ é a **constante de integração** (representa uma família de so
 
 | Função \$$ g(x) \$$         | Integral \$$ \int g(x) dx \$$        |
 |--------------------------|-------------------------------------|
-| \$$ 0 \$$                  | \$$ C \$$                           |
-| \$$ x^n \$$                | \$$ \frac{x^{n+1}}{n+1} + C \$$       |
-| \$$ \frac{1}{x} \$$        | \$$ \ln|x| + C \$$                   |
-| \$$ e^x \$$                | \$$ e^x + C \$$                      |
-| \$$ \sin(x) \$$            | \$$ -\cos(x) + C \$$                 |
-| \$$ \cos(x) \$$            | \$$ \sin(x) + C \$$                  |
+| \$$0 \$$                  | \$$C \$$                           |
+| \$$x^n \$$                | \$$\frac{x^{n+1}}{n+1} + C \$$       |
+| \$$\frac{1}{x} \$$        | \$$\ln|x| + C \$$                   |
+| \$$e^x \$$                | \$$e^x + C \$$                      |
+| \$$\sin(x) \$$            | \$$-\cos(x) + C \$$                 |
+| \$$\cos(x) \$$            | \$$\sin(x) + C \$$                  |
 
 ---
 
