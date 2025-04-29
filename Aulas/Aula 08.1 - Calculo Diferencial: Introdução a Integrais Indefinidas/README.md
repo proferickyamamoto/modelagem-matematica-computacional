@@ -35,7 +35,7 @@ onde \$$ C \$$ é a **constante de integração** (representa uma família de so
 | Soma de Integrais             | \$$\int (f(x) + g(x)) \, dx = \int f(x) \, dx + \int g(x) \, dx \$$ |
 | Integral de função constante  | \$$\int k \, dx = kx + C \$$ |
 | Integral de potência          | \$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1 \$$ |
-| Integral do inverso           | \$$\int\frac{1}{x}, dx = \ln|x| + C \$$ |
+| Integral do inverso           | \$$\int\frac{1}{x} \, dx = \ln{x} + C \$$ |
 
 ---
 
@@ -98,13 +98,13 @@ Calcular:
 
 ### Parte 1 – Integrais diretas
 1. Calcule as integrais:
-   - a) \$$ \int (5x^3 - 4x^2 + 2) \, dx \$$
-   - b) \$ \int (e^x + \sin(x)) \, dx \$$
+   - a) \$$\int (5x^3 - 4x^2 + 2) \, dx \$$
+   - b) \$$\int (e^x + \sin(x)) \, dx \$$
 
 ### Parte 2 – Cálculo Computacional
 2. Usar Octave ou R para calcular:
-   - a) \$$ \int \frac{1}{x^2+1} \, dx \$$
-   - b) \$$ \int x \cdot e^{x^2} \, dx \$$
+   - a) \$$\int \frac{1}{x^2+1} \, dx \$$
+   - b) \$$\int x \cdot e^{x^2} \, dx \$$
 
 ---
 
