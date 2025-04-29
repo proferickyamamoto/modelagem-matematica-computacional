@@ -98,13 +98,13 @@ Calcular:
 
 ### Parte 1 – Integrais diretas
 1. Calcule as integrais:
-   - a) \( \int (5x^3 - 4x^2 + 2) \, dx \)
-   - b) \( \int (e^x + \sin(x)) \, dx \)
+   - a) \$$ \int (5x^3 - 4x^2 + 2) \, dx \$$
+   - b) \$ \int (e^x + \sin(x)) \, dx \$$
 
 ### Parte 2 – Cálculo Computacional
 2. Usar Octave ou R para calcular:
-   - a) \( \int \frac{1}{x^2+1} \, dx \)
-   - b) \( \int x \cdot e^{x^2} \, dx \)
+   - a) \$$ \int \frac{1}{x^2+1} \, dx \$$
+   - b) \$$ \int x \cdot e^{x^2} \, dx \$$
 
 ---
 
