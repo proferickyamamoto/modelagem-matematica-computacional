@@ -31,11 +31,11 @@ onde \$$ C \$$ é a **constante de integração** (representa uma família de so
 
 | Propriedade                  | Descrição |
 |-------------------------------|-----------|
-| Linearidade                  | \$$ \int [af(x) + bg(x)] \, dx = a \int f(x) \, dx + b \int g(x) \, dx \$$ |
-| Soma de Integrais             | \$$ \int (f(x) + g(x)) \, dx = \int f(x) \, dx + \int g(x) \, dx \$$ |
-| Integral de função constante  | \$$ \int k \, dx = kx + C \$$ |
-| Integral de potência          | \\$$ \int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1 \$$ |
-| Integral do inverso           | $$ \int \frac{1}{x} \, dx = \ln|x| + C \$$ |
+| Linearidade                  | \$$\int [af(x) + bg(x)] \, dx = a \int f(x) \, dx + b \int g(x) \, dx \$$ |
+| Soma de Integrais             | \$$\int (f(x) + g(x)) \, dx = \int f(x) \, dx + \int g(x) \, dx \$$ |
+| Integral de função constante  | \$$\int k \, dx = kx + C \$$ |
+| Integral de potência          | \$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1 \$$ |
+| Integral do inverso           | \$$\int \frac{1}{x} \, dx = \ln|x| + C \$$ |
 
 ---
 
