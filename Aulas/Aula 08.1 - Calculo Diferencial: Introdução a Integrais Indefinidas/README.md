@@ -21,7 +21,7 @@ Então:
 
 \$$\int g(x) \, dx = f(x) + C \$$
 
-onde \$$ C \$$ é a **constante de integração** (representa uma família de soluções).
+onde \$$C \$$ é a **constante de integração** (representa uma família de soluções).
 
 - 📈 A integral indica a "área acumulada" ou "soma contínua" da função.
 
@@ -45,7 +45,7 @@ onde \$$ C \$$ é a **constante de integração** (representa uma família de so
 |--------------------------|-------------------------------------|
 | \$$0 \$$                  | \$$C \$$                           |
 | \$$x^n \$$                | \$$\frac{x^{n+1}}{n+1} + C \$$       |
-| \$$\frac{1}{x} \$$        | \$$\ln|x| + C \$$                   |
+| \$$\frac{1}{x} \$$        | \$$\ln{x} + C \$$                   |
 | \$$e^x \$$                | \$$e^x + C \$$                      |
 | \$$\sin(x) \$$            | \$$-\cos(x) + C \$$                 |
 | \$$\cos(x) \$$            | \$$\sin(x) + C \$$                  |
@@ -77,20 +77,20 @@ Integrate(x^2, x)
 ### Exemplo 1:
 Calcular:
 
-\$$ \int (3x^2 + 2x) \, dx \$$
+\$$\int (3x^2 + 2x) \, dx \$$
 
 **Solução:**
 
-\$$ \int 3x^2 \, dx + \int 2x \, dx = x^3 + x^2 + C \$$
+\$$\int 3x^2 \, dx + \int 2x \, dx = x^3 + x^2 + C \$$
 
 ### Exemplo 2:
 Calcular:
 
-\$$ \int \cos(x) \, dx \$$
+\$$\int \cos(x) \, dx \$$
 
 **Solução:**
 
-\$$ \sin(x) + C \$$
+\$$\sin(x) + C \$$
 
 ---
 
@@ -98,8 +98,8 @@ Calcular:
 
 ### Parte 1 – Integrais diretas
 1. Calcule as integrais:
-   - a) \$$\int (5x^3 - 4x^2 + 2) \, dx \$$
-   - b) \$$\int (e^x + \sin(x)) \, dx \$$
+   - a) \$$\int(5x^3 - 4x^2 + 2) \, dx \$$
+   - b) \$$\int(e^x + \sin(x)) \, dx \$$
 
 ### Parte 2 – Cálculo Computacional
 2. Usar Octave ou R para calcular:
