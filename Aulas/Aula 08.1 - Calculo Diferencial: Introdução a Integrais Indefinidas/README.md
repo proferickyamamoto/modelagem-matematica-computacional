@@ -41,14 +41,14 @@ onde \$$ C \$$ é a **constante de integração** (representa uma família de so
 
 ## 🧩 Tabela de Integrais Básicas
 
-| Função \( g(x) \)         | Integral \( \int g(x) dx \)        |
+| Função \$$ g(x) \$$         | Integral \$$ \int g(x) dx \$$        |
 |--------------------------|-------------------------------------|
-| \( 0 \)                  | \( C \)                           |
-| \( x^n \)                | \( \frac{x^{n+1}}{n+1} + C \)       |
-| \( \frac{1}{x} \)        | \( \ln|x| + C \)                   |
-| \( e^x \)                | \( e^x + C \)                      |
-| \( \sin(x) \)            | \( -\cos(x) + C \)                 |
-| \( \cos(x) \)            | \( \sin(x) + C \)                  |
+| \$$ 0 \$$                  | \$$ C \$$                           |
+| \$$ x^n \$$                | \$$ \frac{x^{n+1}}{n+1} + C \$$       |
+| \$$ \frac{1}{x} \$$        | \$$ \ln|x| + C \$$                   |
+| \$$ e^x \$$                | \$$ e^x + C \$$                      |
+| \$$ \sin(x) \$$            | \$$ -\cos(x) + C \$$                 |
+| \$$ \cos(x) \$$            | \$$ \sin(x) + C \$$                  |
 
 ---
 
