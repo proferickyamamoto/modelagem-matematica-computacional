@@ -29,7 +29,7 @@
 
 ## 🧮 Exemplo Teórico de Cálculo
 
-Considere duas forças vetoriais em \(\mathbb{R}^2\):
+Considere duas forças vetoriais em \$\mathbb{R}^2\$:
 
 $\mathbf{F}_1 = \begin{bmatrix} 3 \\ 2 \end{bmatrix}, \quad \mathbf{F}_2 = \begin{bmatrix} -1 \\ 4 \end{bmatrix}$
 
