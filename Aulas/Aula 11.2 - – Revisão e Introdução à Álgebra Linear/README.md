@@ -37,7 +37,7 @@ $$\mathbf{F}_2 = \begin{bmatrix} -1 \\ 4 \end{bmatrix}$$
 
 A força resultante é sua soma:
 
-$ \mathbf{F}_R = \mathbf{F}_1 + \mathbf{F}_2 = \begin{bmatrix} 2 \\ 6 \end{bmatrix} $
+$$ \mathbf{F}_R = \mathbf{F}_1 + \mathbf{F}_2 = \begin{bmatrix} 2 \\ 6 \end{bmatrix} $$
 
 Interpretação: resultante de duas componentes perpendiculares.
 
