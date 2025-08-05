@@ -16,14 +16,14 @@
 - **Modelagem:** uso de funções lineares, quadráticas e cúbicas para simular fenômenos.
 
 ### Introdução à Álgebra Linear
-- Vetores em \(\mathbb{R}^2\) e \(\mathbb{R}^3\): definição, magnitude e direção.  
+- Vetores em $\mathbb{R}^2\$ e $\mathbb{R}^3$: definição, magnitude e direção.  
 - Matrizes e suas operações básicas — soma, multiplicação, transposição.  
-- Sistemas lineares: resolução via eliminação de Gauss e interpretação geométrica (Kaabar, 2014) :contentReference[oaicite:1]{index=1}.
+- Sistemas lineares: resolução via eliminação de Gauss e interpretação geométrica (Kaabar, 2014).
 
 ### Aplicações Científicas
 - **Ciência de dados:** vetores representam atributos ou observações.  
 - **Jogos 3D e visualização:** vetores definem posição, movimento e transformação.  
-- **Engenharia:** resolução de sistemas para circuitos e estruturas (Boyd & Vandenberghe, 2018) :contentReference[oaicite:2]{index=2}.
+- **Engenharia:** resolução de sistemas para circuitos e estruturas (Boyd & Vandenberghe, 2018).
 
 ---
 
