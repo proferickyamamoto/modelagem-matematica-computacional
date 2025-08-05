@@ -31,16 +31,11 @@
 
 Considere duas forças vetoriais em \(\mathbb{R}^2\):
 
-\$
-\mathbf{F}_1 = \begin{bmatrix} 3 \\ 2 \end{bmatrix}, \quad
-\mathbf{F}_2 = \begin{bmatrix} -1 \\ 4 \end{bmatrix}
-\$
+\$\mathbf{F}_1 = \begin{bmatrix} 3 \\ 2 \end{bmatrix}, \quad \mathbf{F}_2 = \begin{bmatrix} -1 \\ 4 \end{bmatrix}\$
 
 A força resultante é sua soma:
 
-\$
-\mathbf{F}_R = \mathbf{F}_1 + \mathbf{F}_2 = \begin{bmatrix} 2 \\ 6 \end{bmatrix}
-\$
+\$ \mathbf{F}_R = \mathbf{F}_1 + \mathbf{F}_2 = \begin{bmatrix} 2 \\ 6 \end{bmatrix} \$
 
 Interpretação: resultante de duas componentes perpendiculares.
 
