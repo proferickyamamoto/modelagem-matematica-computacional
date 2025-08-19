@@ -24,15 +24,15 @@
 
 Para vetores não nulos $u, v \in \mathbb{R}^n$:
 
-\$
-\operatorname{proj}_u(v) = \frac{v\cdot u}{u\cdot u}\,u
-\$
+$$
+proj_u(v) = \frac{v\cdot u}{u\cdot u}\,u
+$$
 
-Decomposição ortogonal de $v$:
+Decomposição ortogonal de $$ v $$:
 
-\$
-v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = \operatorname{proj}_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.
-\$
+$$
+v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = proj_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.
+$$
 
 ### 2) Projeção sobre um subespaço (colunas de A)
 
