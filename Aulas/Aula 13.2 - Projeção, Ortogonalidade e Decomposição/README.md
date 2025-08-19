@@ -28,7 +28,7 @@ $\operatorname{proj}_u(v) = \frac{v\cdot u}{u\cdot u}\,u$
 
 Decomposição ortogonal de $v$:
 
-$ v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = \operatorname{proj}_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.$
+$v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = \operatorname{proj}_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.$
 
 ### 2) Projeção sobre um subespaço (colunas de A)
 
@@ -52,11 +52,15 @@ O **Teorema da Projeção** garante que $\hat b=P_Ab$ é o ponto de $\mathcal{C}
 ## 🧮 Exemplos Rápidos
 
 **Ex. 1 (reta em $\mathbb{R}^2$):** $u=(2,1),\; v=(3,4)$.
+
 $v_{\parallel} = \dfrac{v\cdot u}{u\cdot u}\,u = \dfrac{3\cdot2+4\cdot1}{2^2+1^2}\,(2,1) = \dfrac{10}{5}(2,1)=(4,2)$.
+
 $v_{\perp} = v-v_{\parallel} = (3,4)-(4,2)=(-1,2)$ e $v_{\perp}\cdot u=0$.
 
 **Ex. 2 (projeção via matriz):** $A=\begin{bmatrix}1\\1\\0\end{bmatrix}$, subespaço gerado pela coluna.
+
 $P_A=A(A^TA)^{-1}A^T\Rightarrow A^TA=[2],\; (A^TA)^{-1}=[1/2]$,
+
 $P_A=\tfrac{1}{2}\begin{bmatrix}1\\1\\0\end{bmatrix}[1\;1\;0]=\tfrac12\begin{bmatrix}1&1&0\\1&1&0\\0&0&0\end{bmatrix}.$
 
 ---
