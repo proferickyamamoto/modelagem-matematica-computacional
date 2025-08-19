@@ -22,13 +22,13 @@
 
 ### 1) Projeção de um vetor sobre outro (reta)
 
-Para vetores não nulos $ u, v \in \mathbb{R}^n $:
+Para vetores não nulos $u, v \in \mathbb{R}^n$:
 
 $$
 proj_u(v) = \frac{v\cdot u}{u\cdot u}\,u
 $$
 
-Decomposição ortogonal de $ v $:
+Decomposição ortogonal de $v$:
 
 $$
 v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = proj_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.
