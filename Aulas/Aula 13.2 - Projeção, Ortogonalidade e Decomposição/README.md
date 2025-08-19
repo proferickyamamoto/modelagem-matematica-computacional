@@ -24,16 +24,22 @@
 
 Para vetores não nulos $u, v \in \mathbb{R}^n$:
 
-$\operatorname{proj}_u(v) = \frac{v\cdot u}{u\cdot u}\,u$
+$$
+\operatorname{proj}_u(v) = \frac{v\cdot u}{u\cdot u}\,u
+$$
 
 Decomposição ortogonal de $v$:
 
-$v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = \operatorname{proj}_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.$
+$$
+v = v_{\parallel} + v_{\perp},\quad v_{\parallel} = \operatorname{proj}_u(v),\; v_{\perp} = v - v_{\parallel},\;\text{com}\; v_{\perp}\perp u.
+$$
 
 ### 2) Projeção sobre um subespaço (colunas de A)
 
-Seja $A\in\mathbb{R}^{n\times k}$ de posto completo (colunas LI). A projeção ortogonal de $b\in\mathbb{R}^n$ sobre $\mathcal{C}(A)$ é:
-$$\hat b = P_A b,\quad P_A = A(A^T A)^{-1}A^T.$$
+Seja $ A\in\mathbb{R}^{n\times k} $ de posto completo (colunas LI). A projeção ortogonal de $ b\in\mathbb{R}^n $ sobre $ \mathcal{C}(A) $ é:
+$$
+\hat b = P_A b,\quad P_A = A(A^T A)^{-1}A^T.
+$$
 Propriedades: $$P_A$$ é **simétrica** e **idempotente** ($P_A^2=P_A$). O resíduo $r=b-\hat b$ é ortogonal a $$\mathcal{C}(A)$: $A^T r=0$$.
 
 ### 3) Ortogonalidade, bases ortonormais e Gram–Schmidt
