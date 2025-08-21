@@ -65,11 +65,11 @@ $v_{\parallel} = \dfrac{v\cdot u}{u\cdot u}\,u = \dfrac{3\cdot2+4\cdot1}{2^2+1^2
 
 $v_{\perp} = v-v_{\parallel} = (3,4)-(4,2)=(-1,2)$ e $v_{\perp}\cdot u=0$.
 
-**Ex. 2 (projeção via matriz):** $A=\begin{bmatrix}1\\1\\0\end{bmatrix}$, subespaço gerado pela coluna.
+**Ex. 2 (projeção via matriz):** $A=\begin{bmatrix}1 \\1 \\0\end{bmatrix}$, subespaço gerado pela coluna.
 
 $P_A=A(A^TA)^{-1}A^T\Rightarrow A^TA=[2],\; (A^TA)^{-1}=[1/2]$,
 
-$$P_A=\tfrac{1}{2}\begin{bmatrix}1\\ 1\\ 0\end{bmatrix}\begin{bmatrix}1 & 1 &0\end{bmatrix} = \tfrac{1}{2}\begin{bmatrix}1&1&0\\ 1&1&0\\ 0&0&0\end{bmatrix}.$$
+$$P_A=\tfrac{1}{2}\begin{bmatrix} 1\\ 1\\ 0 \end{bmatrix}\begin{bmatrix}1 & 1 &0\end{bmatrix} = \tfrac{1}{2}\begin{bmatrix}1&1&0\\ 1&1&0\\ 0&0&0\end{bmatrix}.$$
 
 ---
 
