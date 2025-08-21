@@ -79,6 +79,7 @@ P_{A} =
 0
 \end{bmatrix}
 $$
+
 ---
 
 ## 💻 Código – Projeção e Gram–Schmidt
