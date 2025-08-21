@@ -71,6 +71,14 @@ $P_A=A(A^TA)^{-1}A^T\Rightarrow A^TA=[2],\; (A^TA)^{-1}=[1/2]$,
 
 $$P_A=\tfrac{1}{2}\begin{bmatrix}1\\1\\0\end{bmatrix}[1\;1\;0]=\tfrac12\begin{bmatrix}1&1&0\\1&1&0\\0&0&0\end{bmatrix}.$$
 
+$$
+P_{A} = 
+\begin{bmatrix}
+1 \\
+1 \\
+0
+\end{bmatrix}
+$$
 ---
 
 ## 💻 Código – Projeção e Gram–Schmidt
