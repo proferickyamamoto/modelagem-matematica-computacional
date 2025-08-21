@@ -194,10 +194,13 @@ def gram_schmidt(V):
 ## 🏠 Tarefa para Casa
 
 1. Para $u=(2,-1,2)$ e $v=(0,3,1)$: compute $Proj_u(v)$, decomponha $v$ e calcule $\|v_{\perp}\|$.
-2. Dado $A=\begin{bmatrix}1&1\\1&-1\\0&1\end{bmatrix}$, forme $P_A$ e comprove simetria e idempotência.
-3. Implemente Gram–Schmidt modificado e compare com o clássico (condicionamento).
-4. Gere dados $(x_i,y_i)$ e ajuste $y\approx\beta_0+\beta_1 x$ via $\hat\beta=(X^TX)^{-1}X^Ty$; plote pontos e reta.
-5. (Desafio) Em $\mathbb{R}^3$, projete $b$ no plano $x+y+z=0$ e calcule a distância de $b$ ao plano.
+2. Dado
+   $$ A=\begin{bmatrix}1&1\\1&-1\\0&1\end{bmatrix} $$
+  
+   , forme $P_A$ e comprove simetria e idempotência.
+5. Implemente Gram–Schmidt modificado e compare com o clássico (condicionamento).
+6. Gere dados $(x_i,y_i)$ e ajuste $y\approx\beta_0+\beta_1 x$ via $\hat\beta=(X^TX)^{-1}X^Ty$; plote pontos e reta.
+7. (Desafio) Em $\mathbb{R}^3$, projete $b$ no plano $x+y+z=0$ e calcule a distância de $b$ ao plano.
 
 ---
 
