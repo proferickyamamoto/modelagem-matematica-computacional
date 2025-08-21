@@ -185,7 +185,7 @@ def gram_schmidt(V):
 ## 🏫 Exercícios em Sala
 
 1. Calcule $Proj_u(v)$ para $u=(1,2,2), v=(3,0,1)$; ache $v_{\perp}$ e verifique ortogonalidade.
-2. Dado $A = \begin{bmatrix}1&0\\ 1&1\\ 0&1\end{bmatrix}$, construa $P_A$ e verifique se $P_A^2=P_A$ e $P_A^T=P_A$.
+2. Dado $A = \begin{bmatrix} 1 & 0\\ 1 & 1\\ 0 & 1 \end{bmatrix}$, construa $P_A$ e verifique se $P_A^2=P_A$ e $P_A^T=P_A$.
 3. Aplique Gram–Schmidt em $(1,1,0)^T, (1,0,1)^T$ e normalize.
 4. Explique por que o resíduo de mínimos quadrados é ortogonal às colunas de $A$.
 
@@ -193,7 +193,7 @@ def gram_schmidt(V):
 
 ## 🏠 Tarefa para Casa
 
-1. Para $u=(2,-1,2)$ e $v=(0,3,1)$: compute $\operatorname{proj}_u(v)$, decomponha $v$ e calcule $\|v_{\perp}\|$.
+1. Para $u=(2,-1,2)$ e $v=(0,3,1)$: compute $Proj_u(v)$, decomponha $v$ e calcule $\|v_{\perp}\|$.
 2. Dado $A=\begin{bmatrix}1&1\\1&-1\\0&1\end{bmatrix}$, forme $P_A$ e comprove simetria e idempotência.
 3. Implemente Gram–Schmidt modificado e compare com o clássico (condicionamento).
 4. Gere dados $(x_i,y_i)$ e ajuste $y\approx\beta_0+\beta_1 x$ via $\hat\beta=(X^TX)^{-1}X^Ty$; plote pontos e reta.
