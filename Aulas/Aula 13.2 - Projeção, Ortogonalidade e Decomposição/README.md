@@ -69,7 +69,7 @@ $v_{\perp} = v-v_{\parallel} = (3,4)-(4,2)=(-1,2)$ e $v_{\perp}\cdot u=0$.
 
 $P_A=A(A^TA)^{-1}A^T\Rightarrow A^TA=[2],\; (A^TA)^{-1}=[1/2]$,
 
-$$P_A=\tfrac{1}{2}\begin{bmatrix}1\\1\\0\end{bmatrix}\begin{bmatrix}1 & 1 &0\end{bmatrix} = \tfrac{1}{2}\begin{bmatrix}1&1&0\\1&1&0\\0&0&0\end{bmatrix}.$$
+$$P_A=\tfrac{1}{2}\begin{bmatrix}1\\ 1\\ 0\end{bmatrix}\begin{bmatrix}1 & 1 &0\end{bmatrix} = \tfrac{1}{2}\begin{bmatrix}1&1&0\\ 1&1&0\\ 0&0&0\end{bmatrix}.$$
 
 ---
 
