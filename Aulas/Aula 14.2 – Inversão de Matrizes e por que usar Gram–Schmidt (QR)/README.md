@@ -41,7 +41,7 @@ São equivalentes:
 
 * **Custo** e **erro numérico**: formar $x=A^{-1}b$ é mais caro e menos estável que resolver $A\,x=b$ por fatoração.
 * **Condicionamento**: erro relativo amplificado por $\kappa(A)=\|A\|\,\|A^{-1}\|$. Se $\kappa(A)$ é alto, pequenas perturbações $\Rightarrow$ grandes erros em $x$.
-* **Regra de ouro** (Strang; Trefethen & Bau): *nunca* use `inv(A)*b`; prefira $A\\b$ (Octave/Matlab), `solve(A,b)` (NumPy/R).
+* **Regra de ouro** (Strang; Trefethen & Bau): *nunca* use `inv(A)*b`; prefira A b (Octave/Matlab), `solve(A,b)` (NumPy/R).
 
 ### 4) Onde entra o **Gram–Schmidt/QR**?
 
