@@ -34,7 +34,7 @@ São equivalentes:
 ### 2) Como inverter (teoria x prática)
 
 * **Gauss–Jordan**: resolve $[A\,|\,I] \to [I\,|\,A^{-1}]$. Custo $\mathcal{O}(n^3)$.
-* **Adjunta**: $A^{-1}=\tfrac{\operatorname{adj}(A)}{\det(A)}$ (bom para prova/2×2/3×3; **impraticável** para $n$ grande).
+* **Adjunta**: $A^{-1}=\tfrac{adj\{(A)}}{\det(A)}$ (bom para prova/2×2/3×3; **impraticável** para $n$ grande).
 * **Fatorações**: use **LU**/**QR** para **resolver** $A\,x=b$ sem formar $A^{-1}$.
 
 ### 3) Por que **não** usar $\mathbf{inv(A)}$ diretamente?
