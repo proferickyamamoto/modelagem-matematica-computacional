@@ -21,7 +21,7 @@ $A\,A^{-1}=A^{-1}A=I.$
 São equivalentes:
 
 * $\det(A)\neq 0$
-* $\operatorname{posto}(A)=n$
+* $posto\{(A)}=n$
 * O sistema $A\,x=b$ tem **única** solução para todo $b\in\mathbb{R}^n$
 * As colunas de $A$ são LI (base de $\mathbb{R}^n$)
 
