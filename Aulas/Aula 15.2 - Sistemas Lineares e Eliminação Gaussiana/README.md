@@ -19,9 +19,9 @@
 
 Defina r = rank(A) e r' = rank([A|b]).
 
-• Se r < r' → incompatível (sem solução).
-• Se r = r' = n → solução única.
-• Se r = r' < n → infinitas soluções (n − r variáveis livres).
+  * Se r < r' → incompatível (sem solução).
+  * Se r = r' = n → solução única.
+  * Se r = r' < n → infinitas soluções (n − r variáveis livres).
 
 ---
 
