@@ -82,18 +82,21 @@ Solução: (x1, x2, x3) = (2, 3, −1).
 ---
 
 ## 🧮 Exemplo B — Infinitas Soluções (subdeterminado)
-\[
-\begin{cases}
- x + 2y + z = 1\\
- 2x + 4y + 2z = 2\\
- -x - 2y - z = -1
-\end{cases}
-$$
 
-Observe que L2 = 2·L1 e L3 = −L1 ⇒ **posto** $r=1$ (somente uma equação independente). Como $[A|b]$ tem o mesmo posto $r'=1$ e $n=3$, há **infinitas soluções** com **2 variáveis livres**.
+Sistema:
+x + 2y + z = 1
+2x + 4y + 2z = 2
+−x − 2y − z = −1
 
-Escolha $y=s$, $z=t$. Da 1ª equação: $x = 1 - 2s - t$.
-**Solução paramétrica:** $\boxed{(x,y,z)=(1-2s-t,\ s,\ t)},\ s,t\in\mathbb{R}.$
+Observação:
+• L2 = 2·L1 e L3 = −L1  ⇒  posto(A) = 1 (apenas 1 equação independente).
+• Como posto([A|b]) = 1 e n = 3, há infinitas soluções com 2 variáveis livres.
+
+Parametrização:
+Escolha y = s, z = t. Da 1ª equação: x = 1 − 2s − t.
+
+Solução paramétrica:
+(x, y, z) = (1 − 2s − t, s, t),  com s, t ∈ ℝ.
 
 ---
 
