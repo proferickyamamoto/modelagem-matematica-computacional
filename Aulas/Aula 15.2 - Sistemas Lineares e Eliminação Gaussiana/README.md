@@ -62,16 +62,21 @@ $$
 
 **k=1 (pivotamento):** pivô = −3 (L2) → L1↔L2.
 
-$$Anule abaixo:
-- L2 ← L2 − (2/−3)L1 = L2 + (2/3)L1 → \([0,\,1/3,\,1/3\,|\,10/3]\)
-- L3 ← L3 − (−2/−3)L1 = L3 − (2/3)L1 → \([0,\,5/3,\,2/3\,|\,−1/3]\)
+Anule abaixo:
 
-**k=2 (pivotamento na col. 2):** pivô = 5/3 (L3) → L2↔L3; anule L3 com m=(1/3)/(5/3)=1/5 → L3 ← L3 − (1/5)L2 ⇒ \([0,0,4/15|17/5]\).
+• L2 ← L2 − (2/−3)L1 = L2 + (2/3)L1  ⇒  [0, 1/3, 1/3 | 10/3]
+• L3 ← L3 − (−2/−3)L1 = L3 − (2/3)L1 ⇒  [0, 5/3, 2/3 | −1/3]
 
-**Retrossubstituição:** \(x_3=\tfrac{17/5}{4/15}=\tfrac{51}{4}=12{,}75\); substituindo: \(x_2=3\), \(x_1=2\).  
-**Solução:** \(\boxed{(x_1,x_2,x_3)=(2,\,3,\,-1)}\).
+k = 2 (pivotamento na coluna 2): pivô = 5/3 (L3) ⇒ L2 ↔ L3; anule L3 com m = (1/3)/(5/3) = 1/5:
+• L3 ← L3 − (1/5)L2  ⇒  [0, 0, 4/15 | 17/5]
 
-> *Nota*: frações intermediárias variam, mas a solução é **única** porque \(\det(A)\neq 0\) (posto 3).
+Retrossubstituição:
+• x3 = (17/5) / (4/15) = (17/5) × (15/4) = 51/4 = 12,75
+• Substituindo: x2 = 3,  x1 = 2
+
+Solução: (x1, x2, x3) = (2, 3, −1).
+
+> Nota: frações intermediárias podem variar, mas a solução é única porque det(A) ≠ 0 (posto 3).
 
 ---
 
