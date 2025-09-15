@@ -15,12 +15,13 @@
 * **Forma matricial:** $A\in\mathbb{R}^{m\times n}$, $x\in\mathbb{R}^n$, $b\in\mathbb{R}^m$.
 * **Operações elementares de linha (OEL):** trocas, múltiplos, soma de múltiplos – **preservam** o conjunto de soluções.
 * **REF** (forma escalonada) e **RREF** (reduzida): pivôs = primeiras entradas não nulas de cada linha; em RREF os pivôs são 1 e são os únicos não nulos nas suas colunas.
-* **Teorema de Rouché–Capelli:**
+**Teorema de Rouché–Capelli**
 
-  * Seja $r=\operatorname{posto}(A)$, $r' = \operatorname{posto}([A|b])$.
-  * Se $r < r'$ → **incompatível** (sem solução).
-  * Se $r = r' = n$ → **solução única**.
-  * Se $r = r' < n$ → **infinitas soluções** ($n-r$ variáveis livres).
+Defina r = rank(A) e r' = rank([A|b]).
+
+• Se r < r' → incompatível (sem solução).
+• Se r = r' = n → solução única.
+• Se r = r' < n → infinitas soluções (n − r variáveis livres).
 
 ---
 
