@@ -1,202 +1,176 @@
-# Aula 15.2 – Sistemas Lineares e Eliminação Gaussiana
-
----
+# Aula 15.2 – Sistemas Lineares: Eliminação, RREF e Classificação
 
 ## 🎯 Objetivos
 
-* Entender a formulação de **sistemas lineares** na forma matricial $A x = b$.
-* Aplicar **operações elementares de linha** e a **Eliminação Gaussiana** com pivotamento parcial.
-* Classificar sistemas: solução **única**, **infinitas** soluções ou **incompatível**.
-* Resolver sistemas via **retrossubstituição** e interpretar resultados com **posto (rank)** e **escalonamento**.
-* Implementar o método em **Octave/Matlab**, **Python (NumPy)** e **R**.
+* Representar sistemas lineares na forma matricial $A\,x=b$ e na matriz aumentada $[A\,|\,b]$.
+* Resolver por **Eliminação Gaussiana** (com pivotamento) e **Gauss–Jordan** (RREF).
+* **Classificar** sistemas: solução única, infinitas soluções e incompatível (sem solução) via **posto** (rank) e **Teorema de Rouché–Capelli**.
+* Escrever **soluções paramétricas** quando houver variáveis livres.
+* (Opcional) Comparar com **Cramer** (2×2/3×3) e **LU**.
 
 ---
 
-## 📘 Fundamentos
+## 📘 Fundamentos Rápidos
 
-### Forma matricial e matriz aumentada
+* **Forma matricial:** $A\in\mathbb{R}^{m\times n}$, $x\in\mathbb{R}^n$, $b\in\mathbb{R}^m$.
+* **Operações elementares de linha (OEL):** trocas, múltiplos, soma de múltiplos – **preservam** o conjunto de soluções.
+* **REF** (forma escalonada) e **RREF** (reduzida): pivôs = primeiras entradas não nulas de cada linha; em RREF os pivôs são 1 e são os únicos não nulos nas suas colunas.
+* **Teorema de Rouché–Capelli:**
 
-Dado $A\in\mathbb{R}^{n\times n}$ (ou $m\times n$), $x\in\mathbb{R}^n$ e $b\in\mathbb{R}^m$:
-$A x = b$
-Matriz **aumentada**: $[A\,|\,b]$.
-
-### Operações elementares (preservam o conjunto de soluções)
-
-1. Troca de duas linhas.
-2. Multiplicação de uma linha por escalar não nulo.
-3. Soma de múltiplo de uma linha a outra.
-
-### Escalonamento e classificação
-
-* **Forma escalonada (REF)** e **reduzida (RREF)**.
-* Critério com **posto**:
-
-  * Se $\operatorname{posto}(A)=\operatorname{posto}([A|b])=n$ → **solução única**.
-  * Se $\operatorname{posto}(A)=\operatorname{posto}([A|b])<n$ → **infinitas soluções** (parâmetros livres).
-  * Se $\operatorname{posto}(A)<\operatorname{posto}([A|b])$ → **incompatível**.
+  * Seja $r=\operatorname{posto}(A)$, $r' = \operatorname{posto}([A|b])$.
+  * Se $r < r'$ → **incompatível** (sem solução).
+  * Se $r = r' = n$ → **solução única**.
+  * Se $r = r' < n$ → **infinitas soluções** ($n-r$ variáveis livres).
 
 ---
 
-## 🧰 Eliminação Gaussiana (com pivotamento parcial)
+## 🧰 Algoritmos de Resolução
 
-Para $k=1,\dots,\min(m,n)-1$:
+### 1) Eliminação Gaussiana (com pivotamento parcial)
 
-1. **Pivoteamento:** escolha $p\in\{k,\dots,m\}$ que maximize $|a_{pk}|$; troque L$k$↔L$p$.
-2. **Anulação abaixo do pivô:** para $i=k+1,\dots,m$, defina $m_{ik}=a_{ik}/a_{kk}$ e faça
-   $\text{L}_i \leftarrow \text{L}_i - m_{ik}\,\text{L}_k$.
-   Ao final, obtenha matriz **triangular superior** $U$ (ou **REF**) e vetor $\tilde b$. Resolva $U x = \tilde b$ por **retrossubstituição**.
+1. Para k=1..min(m,n)−1:
 
-> **Observações numéricas**: Pivotamento reduz erros quando o pivô é pequeno; evita divisão por valores próximos de zero e melhora a estabilidade.
+   * Escolha pivô com maior |coef.| na coluna k (linhas k..m) e troque linhas.
+   * Zere abaixo do pivô: $L_i \leftarrow L_i - m_{ik} L_k$, com $m_{ik}=a_{ik}/a_{kk}$.
+2. Obtenha **U** (triangular superior) e vetor $\tilde b$. Faça **retrossubstituição**.
 
----
+### 2) Gauss–Jordan (RREF)
 
-## 🧮 Exemplo completo (3×3)
+* Prossiga a eliminação **acima** dos pivôs e normalize cada pivô para 1 → obtém **RREF** e lê-se a solução diretamente.
 
-$$
-A=\begin{bmatrix}2&1&-1\\-3&-1&2\\-2&1&2\end{bmatrix},\quad b=\begin{bmatrix}8\\-11\\-3\end{bmatrix},\quad [A|b]=\begin{bmatrix}2&1&-1&|&8\\-3&-1&2&|&-11\\-2&1&2&|&-3\end{bmatrix}.
-$$
+### 3) Cramer (2×2/3×3) – opcional
 
-**k=1 (pivoteamento):** maior |coef.| na coluna 1 é 3 (linha 2) ⇒ troque L1↔L2.
-
-$$
-\begin{bmatrix}-3&-1&2&|&-11\\2&1&-1&|&8\\-2&1&2&|&-3\end{bmatrix}
-$$
-
-Anule abaixo do pivô:
-
-* L2 ← L2 − (2/−3)L1 = L2 + (2/3)L1 ⇒ $[0,\,1/3,\,1/3\,|\,10/3]$
-* L3 ← L3 − (−2/−3)L1 = L3 − (2/3)L1 ⇒ $[0,\,5/3,\,2/3\,|\,−1/3]$
-
-**k=2 (pivoteamento na coluna 2):** maior |coef.| é $5/3$ (linha 3) ⇒ troque L2↔L3.
-Anule L3 com fator $m=(1/3)/(5/3)=1/5$:
-
-* L3 ← L3 − (1/5)L2 ⇒ $[0,\,0,\,4/15\,|\,17/5]$.
-
-**Retrossubstituição**:
-
-* $x_3 = (17/5)/(4/15) = 51/4 = 12{,}75$
-* Substitua em L2 e L1 ⇒ **solução** $x = (2,\,3,\,-1)^T$.
-
-> *Nota:* As frações intermediárias dependem das permutas; a solução final é única quando $\det(A)\neq 0$.
+* Se $\det(A)\neq 0$, $x_i = \det(A_i)/\det(A)$. **Só** para sistemas pequenos; não escalável.
 
 ---
 
-## 💻 Código (implementações educacionais)
+## 🧮 Exemplo A — Solução Única (3×3)
+
+$$
+\begin{cases}
+2x + y - z = 8\\
+-3x - y + 2z = -11\\
+-2x + y + 2z = -3
+\end{cases}
+\quad\Rightarrow\quad
+[A|b]=\begin{bmatrix}
+2&1&-1&|&8\\
+-3&-1&2&|&-11\\
+-2&1&2&|&-3
+\end{bmatrix}
+$$
+
+**k=1 (pivotamento):** pivô = −3 (L2) → L1↔L2.
+
+$$Anule abaixo:
+- L2 ← L2 − (2/−3)L1 = L2 + (2/3)L1 → \([0,\,1/3,\,1/3\,|\,10/3]\)
+- L3 ← L3 − (−2/−3)L1 = L3 − (2/3)L1 → \([0,\,5/3,\,2/3\,|\,−1/3]\)
+
+**k=2 (pivotamento na col. 2):** pivô = 5/3 (L3) → L2↔L3; anule L3 com m=(1/3)/(5/3)=1/5 → L3 ← L3 − (1/5)L2 ⇒ \([0,0,4/15|17/5]\).
+
+**Retrossubstituição:** \(x_3=\tfrac{17/5}{4/15}=\tfrac{51}{4}=12{,}75\); substituindo: \(x_2=3\), \(x_1=2\).  
+**Solução:** \(\boxed{(x_1,x_2,x_3)=(2,\,3,\,-1)}\).
+
+> *Nota*: frações intermediárias variam, mas a solução é **única** porque \(\det(A)\neq 0\) (posto 3).
+
+---
+
+## 🧮 Exemplo B — Infinitas Soluções (subdeterminado)
+\[
+\begin{cases}
+ x + 2y + z = 1\\
+ 2x + 4y + 2z = 2\\
+ -x - 2y - z = -1
+\end{cases}
+$$
+
+Observe que L2 = 2·L1 e L3 = −L1 ⇒ **posto** $r=1$ (somente uma equação independente). Como $[A|b]$ tem o mesmo posto $r'=1$ e $n=3$, há **infinitas soluções** com **2 variáveis livres**.
+
+Escolha $y=s$, $z=t$. Da 1ª equação: $x = 1 - 2s - t$.
+**Solução paramétrica:** $\boxed{(x,y,z)=(1-2s-t,\ s,\ t)},\ s,t\in\mathbb{R}.$
+
+---
+
+## 🧮 Exemplo C — Sistema Incompatível
+
+$$
+\begin{cases}
+ x + y = 1\\
+ 2x + 2y = 3
+\end{cases}
+\quad\Rightarrow\quad
+[A|b]\to\begin{bmatrix}
+1&1&|&1\\
+0&0&|&1
+\end{bmatrix}
+$$
+
+Linha $[0\,0\,|\,1]$ ⇒ **contradição** ⇒ **sem solução**.
+Pelos postos: $r=1$, $r'=2$ ⇒ $r<r'$ (Rouché–Capelli).
+
+---
+
+## ✍️ Como escrever solução paramétrica
+
+1. Traga o sistema para **RREF**.
+2. Identifique **colunas com pivô** (variáveis básicas) e **sem pivô** (variáveis livres).
+3. Dê parâmetros ($s,t,\dots$) às livres e **expresse as básicas** em função deles.
+
+---
+
+## ⚠️ Erros Comuns
+
+* Esquecer pivotamento quando o pivô é pequeno/zero → divisões instáveis.
+* Trocar sinal ao aplicar OEL.
+* Não checar **consistência** (linha do tipo $[0\;0\;\cdots|c]$, $c\ne 0$).
+* Confundir **posto** com número de variáveis (lembre: $\#\text{livres}=n-r$).
+
+---
+
+## 🏫 Exercícios em Sala
+
+1. Resolva por **Eliminação Gaussiana**:
+   $\begin{cases} 3x+2y-z=1\\ 2x-2y+4z=-2\\ -x+\tfrac12 y - z = 0 \end{cases}$
+2. Classifique e resolva (paramétrico, se aplicável):
+   $\begin{cases} x+2y+z=0\\ 2x+4y+2z=0\\ -x-2y-z=0 \end{cases}$
+3. Dado $A=\begin{bmatrix}1&2&1\\0&1&1\\2&1&0\end{bmatrix}$, encontre **posto(A)**, e resolva $A\,x=b$ para $b=(1,2,3)^T$ (diga se é única, infinita ou incompatível).
+4. (RREF) Leve $[A|b]$ à forma reduzida e escreva a solução paramétrica.
+
+---
+
+## 🏠 Tarefa (Lista de 10)
+
+1. Elimine e resolva: $\begin{cases} x+2y- z=4\\ 2x+5y+z=12\\ -x+y+2z=1 \end{cases}$.
+2. Classifique por posto: $\begin{cases} x+y+z=1\\ 2x+2y+2z=2\\ x+y+z=0 \end{cases}$.
+3. Dê um exemplo 3×3 **incompatível** e mostre a linha contraditória.
+4. Escreva a solução geral de $x+2y+3z=0,\ 2x+4y+6z=0$.
+5. Use **Cramer** para um sistema 2×2 de sua escolha ($\det\neq 0$) e compare com eliminação.
+6. Mostre que o número de variáveis livres é $n-r$ no seu exercício 4.
+7. Verifique por multiplicação que sua solução do exercício 1 satisfaz $A\,x=b$.
+8. Monte $[A|b]$ e leve à **RREF** para o exercício 2.
+9. Explique, em 4 linhas, por que pivotamento melhora a estabilidade.
+10. (Desafio) Construa um 4×4 com **posto 2** e descreva o conjunto solução.
+
+---
+
+## 🔎 (Opcional) Verificação computacional
 
 ### Octave/Matlab
 
 ```octave
-function x = gauss_pivot(A, b)
-  A = [A b(:)];
-  [m, n] = size(A); % n = cols = m+1 para quadrada
-  n = n - 1;
-  for k = 1:n-1
-    [~, p] = max(abs(A(k:end, k))); p = p + k - 1;
-    A([k p], :) = A([p k], :);
-    for i = k+1:m
-      m_ik = A(i,k)/A(k,k);
-      A(i, k:end) = A(i, k:end) - m_ik * A(k, k:end);
-    end
-  end
-  x = zeros(n,1);
-  for i = n:-1:1
-    x(i) = (A(i,end) - A(i,i+1:n)*x(i+1:n)) / A(i,i);
-  end
-end
-
-A = [2 1 -1; -3 -1 2; -2 1 2];
-b = [8; -11; -3];
-sol = gauss_pivot(A,b)
+A = [3 2 -1; 2 -2 4; -1 0.5 -1];
+b = [1; -2; 0];
+% resolução estável (não use inv)
+x = A\b
+rref_form = rref([A b])  % requer pacote da sua instalação
 ```
 
 ### Python (NumPy)
 
 ```python
 import numpy as np
-
-def gauss_pivot(A, b):
-    A = A.astype(float)
-    b = b.astype(float)
-    m, n = A.shape
-    M = np.hstack([A, b.reshape(-1,1)])
-    for k in range(min(m,n)-1):
-        p = k + np.argmax(np.abs(M[k:, k]))
-        M[[k, p]] = M[[p, k]]
-        for i in range(k+1, m):
-            m_ik = M[i, k] / M[k, k]
-            M[i, k:] -= m_ik * M[k, k:]
-    x = np.zeros(n)
-    for i in range(n-1, -1, -1):
-        x[i] = (M[i, -1] - M[i, i+1:n] @ x[i+1:n]) / M[i, i]
-    return x
-
-A = np.array([[2.,1.,-1.],
-              [-3.,-1., 2.],
-              [-2., 1., 2.]])
-b = np.array([8., -11., -3.])
-print(gauss_pivot(A,b))  # [ 2.  3. -1.]
+A = np.array([[3,2,-1],[2,-2,4],[-1,0.5,-1]], float)
+b = np.array([1,-2,0.])
+print(np.linalg.solve(A,b))
 ```
-
-### R
-
-```r
-gauss_pivot <- function(A, b){
-  A <- as.matrix(A); b <- as.numeric(b)
-  m <- nrow(A); n <- ncol(A)
-  M <- cbind(A, b)
-  for(k in 1:(min(m,n)-1)){
-    p <- k-1 + which.max(abs(M[k:m, k]))
-    tmp <- M[k,]; M[k,] <- M[p,]; M[p,] <- tmp
-    for(i in (k+1):m){
-      m_ik <- M[i,k]/M[k,k]
-      M[i, k:ncol(M)] <- M[i, k:ncol(M)] - m_ik * M[k, k:ncol(M)]
-    }
-  }
-  x <- numeric(n)
-  for(i in n:1){
-    x[i] <- (M[i,n+1] - sum(M[i,(i+1):n] * x[(i+1):n])) / M[i,i]
-  }
-  x
-}
-
-A <- matrix(c(2,1,-1, -3,-1,2, -2,1,2), 3, byrow=TRUE)
-b <- c(8,-11,-3)
-print(gauss_pivot(A,b))  # 2 3 -1
-```
-
----
-
-## 🧠 Interpretação & Boas Práticas
-
-* Prefira **solve/A\b** (usa fatorações) em vez de formar $A^{-1}$ explicitamente.
-* Se $m>n$ (sistema sobredeterminado), use **QR** (Gram–Schmidt/Householder) para mínimos quadrados.
-* Verifique **condicionamento** ($\kappa(A)$) quando resultados forem sensíveis a ruído/erros.
-
----
-
-## 🏫 Exercícios em Sala
-
-1. Escalone e resolva $\begin{cases}x+y+z=6\\2x+3y+7z=20\\-x+4y+z=9\end{cases}$ com pivotamento.
-2. Classifique (única/infinitas/incompatível):
-   $\begin{cases}x+2y=3\\2x+4y=6\end{cases}$,
-   $\begin{cases}x+2y=3\\2x+4y=7\end{cases}$.
-3. Construa um sistema 3×3 com **posto 2** e descreva o conjunto solução.
-
----
-
-## 🏠 Tarefa (10 itens)
-
-1. Reproduza o exemplo em sala mostrando cada operação de linha e as matrizes intermediárias.
-2. Implemente eliminação **sem** pivotamento e mostre um caso onde falha (ou gera grande erro).
-3. Gere sistemas aleatórios 4×4 e compare `inv(A)%*%b` com `solve(A,b)` (ou QR).
-4. Para um sistema 3×3 **incompatível**, mostre a linha do tipo $[0\;0\;0\,|\,c]$.
-5. Para um sistema com **infinitas soluções**, identifique variáveis livres e escreva a solução paramétrica.
-6. Compare custo/tempo entre sua implementação e `solve`/`\` da linguagem.
-7. Verifique numericamente que **posto** = número de pivôs.
-8. Crie um sistema mal condicionado e estime $\kappa(A)$.
-9. Resolva um sistema 5×5 com sua função de pivotamento.
-10. (Bônus) Escreva uma rotina que retorne também $L$ e $U$ a partir das operações aplicadas.
-
----
-
-**✅ Resultado:** Compreendemos como montar $[A|b]$, escalonar com pivotamento, classificar e resolver sistemas, e implementamos o método em três linguagens.
+**✅ Resultado esperado:** saber levar $[A|b]$ a REF/RREF, classificar por posto e escrever soluções (única, paramétrica ou inexistente), com cuidado às OEL e ao pivotamento.
