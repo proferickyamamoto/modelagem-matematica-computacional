@@ -19,30 +19,41 @@ Nesta atividade, você e seu grupo deverão:
 ---
 
 ## 🧮 Matrizes de Teste
+🧮 Matrizes de Teste
 
-### ✅ Matriz 1 – Bem condicionada
+### ✅ Matriz 1 – Bem condicionada  
+$$
+A_1 = 
+\begin{bmatrix}
+4 & 2 & 3 \\
+2 & 2 & 2 \\
+0 & 1 & 1
+\end{bmatrix},
+\quad
+b_1 = 
+\begin{bmatrix}
+1 \\[6pt]
+2 \\[6pt]
+3
+\end{bmatrix}
+$$
 
-A₁ =
-
-4	2	3
-
-2	2	2
-0	1	1
-
-
-b₁ = [1, 2, 3]ᵀ
-
----
-
-### ⚠️ Matriz 2 – Mal condicionada
-A₂ =
-
-| 1e-10 | 1 | 1 | | 1     | 1 | 2 | | 1     | 2 | 3 |
-
-b₂ = [1, 2, 3]ᵀ
-
-
-
+### ⚠️ Matriz 2 – Mal condicionada  
+$$
+A_2 = 
+\begin{bmatrix}
+10^{-10} & 1 & 1 \\
+1 & 1 & 2 \\
+1 & 2 & 3
+\end{bmatrix},
+\quad
+b_2 = 
+\begin{bmatrix}
+1 \\[6pt]
+2 \\[6pt]
+3
+\end{bmatrix}
+$$
 ---
 
 ## 💻 Passo a Passo no Código
