@@ -39,6 +39,7 @@ b_1 =
 $$
 
 ### ⚠️ Matriz 2 – Mal condicionada  
+
 $$
 A_2 = 
 \begin{bmatrix}
