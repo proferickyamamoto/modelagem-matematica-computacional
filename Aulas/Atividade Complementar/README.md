@@ -32,8 +32,8 @@ A_1 =
 \quad
 b_1 = 
 \begin{bmatrix}
-1 \\[6pt]
-2 \\[6pt]
+1 \\
+2 \\
 3
 \end{bmatrix}
 $$
@@ -49,8 +49,8 @@ A_2 =
 \quad
 b_2 = 
 \begin{bmatrix}
-1 \\[6pt]
-2 \\[6pt]
+1 \\
+2 \\
 3
 \end{bmatrix}
 $$
