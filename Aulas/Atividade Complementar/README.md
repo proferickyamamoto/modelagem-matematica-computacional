@@ -20,21 +20,10 @@ Nesta atividade, você e seu grupo deverão:
 
 ### ⚠️ Matriz 2 – Mal condicionada
 
-$$
-A_2 =
-\begin{bmatrix}
-10^{-10} & 1 & 1 \\
-1 & 1 & 2 \\
-1 & 2 & 3
-\end{bmatrix},
-\quad
-b_2 =
-\begin{bmatrix}
-1 \\[6pt]
-2 \\[6pt]
-3
-\end{bmatrix}
-$$
+A2 = [[1e-10, 1, 1],
+      [1,      1, 2],
+      [1,      2, 3]]
+b2 = [1, 2, 3]
 ---
 
 ## 💻 Passo a Passo no Código
