@@ -21,26 +21,26 @@ Nesta atividade, você e seu grupo deverão:
 
 ### ✅ Matriz 1 – Bem condicionada
 
-$$\[
-A_1 =
-\begin{bmatrix}
-4 & 2 & 3 \\
-2 & 2 & 2 \\
-0 & 1 & 1
-\end{bmatrix}, \quad
-b_1 =
 
-\begin{bmatrix}
-1 \\ 2 \\ 3
-\end{bmatrix}
-\]$$
+A1 = [ 4   2   3 ]
+     [ 2   2   2 ]
+     [ 0   1   1 ]
+
+b1 = [ 1 ]
+     [ 2 ]
+     [ 3 ]
+
 
 ### ⚠️ Matriz 2 – Mal condicionada
 
-A2 = [[1e-10, 1, 1],
-      [1,      1, 2],
-      [1,      2, 3]]
-b2 = [1, 2, 3]
+A2 = [ 1e-10   1   1 ]
+     [      1   1   2 ]
+     [      1   2   3 ]
+
+b2 = [ 1 ]
+     [ 2 ]
+     [ 3 ]
+
 ---
 
 ## 💻 Passo a Passo no Código
