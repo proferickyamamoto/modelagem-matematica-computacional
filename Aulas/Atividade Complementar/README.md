@@ -93,6 +93,7 @@ print(f"Erro Completo: {erro_completo:.2e}")
 print(f"Diferença entre soluções: {dif:.2e}")
 print(f"Tempo Parcial: {t1:.5f}s  |  Tempo Completo: {t2:.5f}s")
 
+```
 
 ---
 
