@@ -97,7 +97,7 @@ print(f"Tempo Parcial: {t1:.5f}s  |  Tempo Completo: {t2:.5f}s")
 
 ---
 
-📈 Análise Esperada
+## 📈 Análise Esperada
 
 > Discussão (mínimo 5 linhas):
 Explique o comportamento observado nos testes.
@@ -114,40 +114,37 @@ Quando o pivotamento completo é realmente necessário?
 
 ---
 
-🧾 Entrega
+## 🧾 Entrega
 
 🧑‍🤝‍🧑 Grupos de até 4 alunos.
 
 📥 Entregar relatório em PDF com:
 
-Códigos e prints dos resultados.
+- Códigos e prints dos resultados.
 
-Tabela comparativa (como a acima).
+- Tabela comparativa.
 
-Conclusão textual.
-
+- Conclusão textual.
 
 ⏱ Prazo: até o final da aula.
 
-📤 Entregar pelo Portal do Aluno, com nomes e RMs no cabeçalho.
+📤 Entregar pela tarefa do Teams, com nomes e RMs no cabeçalho.
 
 
 
 ---
 
-🧮 Avaliação (0–10 pontos)
+## 🧮 Avaliação (0–10 pontos)
 
-Critério	Peso
+### Critério	Peso
 
-Implementação correta e funcional	4 pts
-Análise comparativa clara	4 pts
-Organização e apresentação do relatório	2 pts
-
-
+Implementação correta e funcional - 4 pts
+Análise comparativa clara - 4 pts
+Organização e apresentação do relatório - 2 pts
 
 ---
 
-📚 Referências
+## 📚 Referências
 
 Strang, G. Introduction to Linear Algebra.
 
