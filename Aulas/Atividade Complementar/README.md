@@ -17,6 +17,23 @@ Nesta atividade, você e seu grupo deverão:
 4. Gerar uma **análise comparativa** de resultados.
 
 ---
+## 🧮 Matrizes de Teste
+
+### ✅ Matriz 1 – Bem condicionada
+
+\[
+A_1 =
+\begin{bmatrix}
+4 & 2 & 3 \\
+2 & 2 & 2 \\
+0 & 1 & 1
+\end{bmatrix}, \quad
+b_1 =
+
+\begin{bmatrix}
+1 \\ 2 \\ 3
+\end{bmatrix}
+\]
 
 ### ⚠️ Matriz 2 – Mal condicionada
 
