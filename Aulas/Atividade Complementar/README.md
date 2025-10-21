@@ -21,7 +21,7 @@ Nesta atividade, você e seu grupo deverão:
 ## 🧮 Matrizes de Teste
 
 ### ✅ Matriz 1 – Bem condicionada
-\[
+\$
 A_1 =
 \begin{bmatrix}
 4 & 2 & 3 \\
@@ -32,7 +32,7 @@ b_1 =
 \begin{bmatrix}
 1 \\ 2 \\ 3
 \end{bmatrix}
-\]
+\$
 
 ### ⚠️ Matriz 2 – Mal condicionada
 \[
